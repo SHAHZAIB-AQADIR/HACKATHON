@@ -6,7 +6,7 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
+ 
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -53,14 +53,7 @@ export default function Page() {
                   <Image src={"/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
                   <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
                 </CardContent>
-                <CardFooter className="w-full flex items-center justify-between">
-                  <p>
-                    $99.00/<span className="text-gray-500">day</span>
-                  </p>
-                  <Link href={'/details'}>
-                  <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
-                </CardFooter>
-              </Card>
+                
             ))}
           </div>
           {showMore && (
@@ -83,12 +76,7 @@ export default function Page() {
                     <Image src={"/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
                     <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
                   </CardContent>
-                  <CardFooter className="w-full flex items-center justify-between">
-                    <p>
-                      $99.00/<span className="text-gray-500">day</span>
-                    </p>
-                    <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-                  </CardFooter>
+                  
                 </Card>
               ))}
             </div>
